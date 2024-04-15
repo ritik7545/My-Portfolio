@@ -327,7 +327,7 @@ section {
     background: var(--second-bg-color);
 }
 
-/* ---------- project section other youtube video*/
+/* ---------- --------------------project section other youtube video ==========================*/
 .main-text {
     margin: 2rem;
     text-align: center;
@@ -453,7 +453,7 @@ section {
 }
 
 
-/* =========================Portfolio design ================================================ */
+/* =========================================Portfolio design ================================================ */
 
 
 .conatainer h2 {
@@ -577,6 +577,27 @@ section {
     background: var(--main-color);
     border-radius: 2px;
 }
+/* =============================technical down=============================== */
+.bar .Communication::before {
+  width: 25%;
+}
+
+.bar .Customers_Relation::before {
+  width: 80%;
+}
+
+.bar .Video_Editing::before {
+  width: 50%;
+}
+
+.bar .Web_Develipment::before {
+  width: 35%;
+}
+
+.bar .English_Communication::before {
+  width: 50%;
+}
+/* =============================professional down============================ */
 
 .bar .html::before {
     width: 50%;
