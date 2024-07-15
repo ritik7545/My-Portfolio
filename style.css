@@ -83,7 +83,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/image/home.jpg') no-repeat ;
+   /* background: url('/image/home.jpg') no-repeat ;*/
     /* mix-blend-mode : darken-medium; */
     background-size: cover;
     background-position: center ;
@@ -216,6 +216,23 @@ section {
     z-index: 1;
     overflow: hidden;
     transition: .5s;
+}
+/* changes herer*/
+.home-sci h1 {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px; 
+  background:transparent;
+  border: .2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 20px;
+  color: var(--main-color);
+  z-index: 1;
+  overflow: hidden;
+  transition: .5s;
 }
 
 .home-sci a:hover {
