@@ -596,40 +596,40 @@ section {
 }
 /* =============================technical down=============================== */
 .bar .Communication::before {
-  width: 25%;
+  width: 50%;
 }
-
+.bar .English_Communication::before {
+  width: 50%;
+}
 .bar .Customers_Relation::before {
   width: 80%;
 }
 
-.bar .Video_Editing::before {
+/* .bar .Video_Editing::before {
   width: 50%;
 }
 
 .bar .Web_Develipment::before {
   width: 35%;
-}
+} */
 
-.bar .English_Communication::before {
-  width: 50%;
-}
+
 /* =============================professional down============================ */
 
-.bar .html::before {
-    width: 50%;
+.bar .sql::before {
+    width: 80%;
 }
 
-.bar .css::before {
-    width: 50%;
-}
-
-.bar .java::before {
-    width: 30%;
+.bar .powerbi::before {
+    width: 80%;
 }
 
 .bar .python::before {
     width: 30%;
+}
+
+.bar .excel::before {
+    width: 80%;
 }
 
 .bar .cpp::before {
