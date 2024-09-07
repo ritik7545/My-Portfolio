@@ -680,6 +680,98 @@ section {
     transform: scale(1.03);
 }
 
+/* ====================certificate section ============================= */
+
+.certificate-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
+  gap:2rem;
+}
+
+.certificate-box {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  background: var(--second-bg-color);
+  display: flex;
+  grid-template-rows: 1fr auto;
+  align-items: center;
+  border: 2px solid var(--main-color);
+  box-shadow: var(--text-color);
+}
+
+.certificate-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.certificate-image img {
+  width: 100%;
+  opacity: .5s;
+  height: 100%;
+  transition: .5s;
+}
+
+.certificate-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: linear-gradient(rgba(0, 0, 0,.2),#00abf0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.5s;
+  padding: 0 3rem;
+}
+
+/* .certificate-box:hover .certificate-content {
+  opacity: 1;
+}
+
+.certificate-box:hover .certificate-image img {
+  transform: scale(1.1);
+} */
+
+.certificate-content h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgb(241, 226, 6) ;
+  font:caption-bottom;
+}
+
+.certificate-content p {
+  font-size: 2rem; 
+  margin: 5px 0 15px 0;
+  background: #9103f0;
+}
+
+.certificate-content a {
+  background: #dfbe04;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--main-color);
+  outline: 2px solid #0078af;
+}
+
+.certificate-content a i {
+  
+  font-size: 1.3rem;
+  color: var(--main-color);
+  /* background-color: #03d86e;  */
+}
+
 /* ==============================Get in Touch other video ======================*/
 .section_text_p1 , .title{
     margin: 2rem;
