@@ -51,6 +51,7 @@ body {
 
   /* .navbar {
     position: relative;
+    background-color: red;
   } */
 
 .navbar a {
@@ -414,6 +415,7 @@ section {
     opacity: .5s;
     height: 100%;
     transition: .5s;
+    
 }
 
 .project-content {
@@ -423,7 +425,7 @@ section {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: linear-gradient(rgba(0, 0, 0,.2),#00abf0);
+    background: linear-gradient(rgba(0, 0, 0,.2),#141414); /*black to blue after rgba*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -434,14 +436,19 @@ section {
 }
 
 .project-box:hover .project-content {
-    opacity: 1;
+    opacity: 150;
+    
 }
 
 .project-box:hover .project-image img {
-    transform: scale(1.1);
+    transform: scale(1.20);
+    display: none; /*add this*/
+ 
 }
 
 .project-content h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
     font-size: 3rem;
     font-weight: 600;
     color: rgb(241, 226, 6) ;
@@ -450,8 +457,12 @@ section {
 
 .project-content p {
     font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 5px 0 15px 0;
     background: #9103f0;
+    border-radius: 50px;
+    width: 80%;
+
 }
 
 .project-content a {
