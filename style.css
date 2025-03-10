@@ -411,14 +411,15 @@ section {
     justify-content: center;
     height: 100%;
     width: 100%;
-}
-
-.project-image img {
+    
+  }
+  
+  .project-image img {
+  border-radius: 4%;
     width: 100%;
     opacity: .5s;
     height: 100%;
     transition: .5s;
-    
 }
 
 .project-content {
