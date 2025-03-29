@@ -87,10 +87,11 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-   /* background: url('/image/home.jpg') no-repeat ;*/
+   background: url('/image/home.jpg') no-repeat ;
     /* mix-blend-mode : darken-medium; */
     background-size: cover;
     background-position: center ;
+    background-color: var(--bg-color);
 }
 
 .home-content {
@@ -271,7 +272,7 @@ section {
 }
 
 .home-imgHover:hover {
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
     opacity: .8;
 }
 /* ============About section ========= */
@@ -615,10 +616,10 @@ section {
 }
 /* =============================technical down=============================== */
 .bar .Communication::before {
-  width: 50%;
+  width: 90%;
 }
 .bar .English_Communication::before {
-  width: 50%;
+  width: 59%;
 }
 .bar .Customers_Relation::before {
   width: 80%;
